@@ -1,6 +1,6 @@
 cask "sideink" do
-  version "3.1.1"
-  sha256 "5279c266b52c4fbc121168cc370d46639228be1e4fb28e4452b687ee84d71155"
+  version "3.2.0"
+  sha256 "09524adc5bffd6f89ad4dff6c17158894dce90764ac1b2557fc2777d0b29f61b"
 
   url "https://github.com/linleeeeee/sideink-releases/releases/download/v#{version}/SideInk-arm64.dmg",
       verified: "github.com/linleeeeee/sideink-releases/"
