@@ -1,8 +1,11 @@
 cask "sideink" do
-  version "3.2.0"
-  sha256 "09524adc5bffd6f89ad4dff6c17158894dce90764ac1b2557fc2777d0b29f61b"
+  arch arm: "arm64", intel: "x64"
 
-  url "https://github.com/linleeeeee/sideink-releases/releases/download/v#{version}/SideInk-arm64.dmg",
+  version "3.2.0"
+  sha256 arm:   "212bda04f3ce9fdb6a2d25416cb83a715b5cdb0ad0ebcecc2482b5becd3bbe80",
+         intel: "a9ec91b45e8956dd92c107faf29858adf5b2ff7ab4312ad1e572c91b757d22b8"
+
+  url "https://github.com/linleeeeee/sideink-releases/releases/download/v#{version}/SideInk-#{arch}.dmg",
       verified: "github.com/linleeeeee/sideink-releases/"
   name "SideInk"
   desc "Floating to-do list that slides in from the screen edge"
@@ -14,7 +17,6 @@ cask "sideink" do
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: ">= :big_sur"
 
   app "SideInk.app"
