@@ -1,9 +1,9 @@
 cask "sideink" do
   arch arm: "arm64", intel: "x64"
 
-  version "3.3.16"
-  sha256 arm:   "27b67868f5aae1aa0082246c49ccb649554bcfd95fd4cede0ca83742d3ea2cff",
-         intel: "4303c14e8a4136f14debdf76b725e7b07832eb55a943fd3ecfef91effd52694e"
+  version "3.3.17"
+  sha256 arm:   "f94b59f11fbce34ec2dc715db5baba3b8a2ae71a76920d030730e339cb61cf7c",
+         intel: "231cf430adfbb3addd2f90fb8c2fe279a4059dd05682ebcc8ad72bc42c6d03e5"
 
   url "https://github.com/linleeeeee/sideink-releases/releases/download/v#{version}/SideInk-#{arch}.dmg",
       verified: "github.com/linleeeeee/sideink-releases/"
